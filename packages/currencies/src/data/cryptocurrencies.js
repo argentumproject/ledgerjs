@@ -336,6 +336,34 @@ const cryptocurrenciesArray: Currency[] = [
         magnitude: 8
       }
     ]
+  },
+  {
+    coinType: 45,
+    name: "Argentum",
+    scheme: "argentum",
+    apiName: "arg",
+    color: "#ae3a28",
+    xpub: 0x0488b21e,
+    isSegwitSupported: false,
+    handleFeePerByte: false,
+    areTransactionTimestamped: false,
+    bitcoinjs: {
+      messagePrefix: "Argentum Signed Message:",
+      bip32: {
+        public: 76067358,
+        private: 87393172
+      },
+      pubKeyHash: 23,
+      scriptHash: 5,
+      wif: 128
+    },
+    units: [
+      {
+        name: "arg",
+        code: "ARG",
+        magnitude: 8
+      }
+    ]
   }
 ];
 
